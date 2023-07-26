@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="css/styleFiltro.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/8e2d6bc2b7.js" crossorigin="anonymous"></script>
+    <title>Filtrar</title>
+</head>
+<body>
+     <div class="container-modal">
+        <div class="modal-btn">
+            <button><a href="#mostrar-modal">Filtrar</a> </button> 
+        </div>                             
+      </div>
+      <div id="mostrar-modal" class="ventana-modal">           
+        <div>
+            <div class="container">
+                <a href="#" class="cerrar">
+                    <i class='bx bx-x-circle'></i>
+                </a>
+            <h1>FILTROS</h1>
+        <!--------          PRIMER FILTRO          ------------>
+            <div class="select-btn" id ="btn-1">
+                <span class="btn-text">AUTOR</span>
+                <span class="arrow-dwn">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </span>
+            </div>
+            <ul class="list-items">
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Quino</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Cristian Dzwonik</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Gabriel Rolon</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Victor Suiro</span>
+                </li>                
+            </ul>
+
+            <!--------          SEGUNDO FILTRO          ------------>
+            <div class="select-btn" id ="btn-1">
+                <span class="btn-text">EDITORIAL/MARCA</span>
+                <!-- <span class="arrow-dwn">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </span> -->
+            </div>
+            <ul class="list-items">
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Bic</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Faber Castell</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Sigmar</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Agama</span>
+                </li>                
+            </ul>
+            <!--------          TERCER  FILTRO          ------------>
+            <div class="select-btn">
+                <span class="btn-text">CATEGORIA</span>
+                <!-- <span class="arrow-dwn">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </span> -->
+            </div>
+            <ul class="list-items">
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Ficcion</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Drama</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Infantiles</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Politica</span>
+                </li>                
+            </ul>
+             <!--------          CUARTO  FILTRO          ------------>
+            <div class="select-btn">
+                <span class="btn-text">RANGO DE PRECIO</span>
+                <!-- <span class="arrow-dwn">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </span> -->
+            </div>
+            <ul class="list-items">
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Ficcion</span>
+                </li>
+                          
+            </ul>
+        </div>
+            <button class="filtrar-btn"><a href="#">Aplicar</a></button>
+            <button class="borrar-btn"><a href="#">Borrar</a></button>
+        </div>
+    </div>
+     <!-- JavaScript -->
+        <script src="js/script.js"></script>
+</body>
+</html>
